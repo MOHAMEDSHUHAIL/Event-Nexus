@@ -1,0 +1,209 @@
+/* CreateEventPage.css */
+
+form {
+    padding: 1rem;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .MuiTypography-h4 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .MuiTextField-root {
+    margin-bottom: 1rem;
+  }
+  
+  .MuiTextField-root .MuiInp/* Ensure all elements include padding and border in their width/height */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Center-align text in the form container */
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Center-align text in the form */
+  form {
+    padding: 1rem;
+    max-width: 700px;
+    margin: auto;
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Center-align typography headings */
+  .MuiTypography-h4 {
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Center-align heading text */
+  }
+  
+  /* Center-align body text */
+  .MuiTypography-body1 {
+    color: #777;
+    text-align: center; /* Center-align body text */
+  }
+  
+  /* Text field styling */
+  .MuiTextField-root {
+    margin-bottom: 1rem;
+  }
+  
+  /* Input styling */
+  .MuiTextField-root .MuiInputBase-input {
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  .MuiButton-contained {
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: none;
+  }
+  
+  /* Primary button color and hover effects */
+  .MuiButton-containedPrimary {
+    background-color: #f95b4f; /* Primary button color */
+    color: #fff;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #e64a43; /* Darker shade on hover */
+  }
+  
+  .MuiButton-contained .MuiButton-startIcon {
+    margin-right: 0.5rem;
+  }
+  
+  /* File input styling */
+  input[type="file"] {
+    display: none;
+  }
+  
+  .selected-poster {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #555;
+  }
+  
+  /* Grid item padding */
+  .Grid-item {
+    padding: 0.5rem;
+  }
+  
+  /* Button styles */
+  .Button_root__v7mbu {
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .Button_ghost__v7mbu {
+    background-color: transparent;
+    border: 1px solid #1976d2;
+    color: #1976d2;
+  }
+  
+  .Button_primary__v7mbu {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+  }
+  
+  .Button_defaultSize__v7mbu {
+    padding: 8px 16px;
+  }
+  
+  /* Hover effects for buttons */
+  .Button_ghost__v7mbu:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .Button_primary__v7mbu:hover {
+    background-color: #1565c0;
+  }
+  utBase-input {
+    border-radius: 4px;
+  }
+  
+  .MuiButton-contained {
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: none;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #f95b4f; /* Primary button color */
+    color: #fff;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #e64a43; /* Darker shade on hover */
+  }
+  
+  .MuiButton-contained .MuiButton-startIcon {
+    margin-right: 0.5rem;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .selected-poster {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #555;
+  }
+  
+  .form-container {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Grid-item {
+    padding: 0.5rem;
+  }
+  
+  .MuiTypography-body1 {
+    color: #777;
+  }
+  
+  .Button_root__v7mbu {
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .Button_ghost__v7mbu {
+    background-color: transparent;
+    border: 1px solid #1976d2;
+    color: #1976d2;
+  }
+  
+  .Button_primary__v7mbu {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+  }
+  
+  .Button_defaultSize__v7mbu {
+    padding: 8px 16px;
+  }
+  
+  /* Styles for hover effect if needed */
+  .Button_ghost__v7mbu:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .Button_primary__v7mbu:hover {
+    background-color: #1565c0;
+  }
+  

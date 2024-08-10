@@ -1,0 +1,52 @@
+.event-list {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 16px;
+  background-color: #f8f9fa; /* Light background to distinguish the scrollable area */
+  width: 100%; /* Full width */
+}
+
+.event-item {
+  display: inline-block;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 16px;
+  padding: 16px;
+  cursor: pointer;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.event-item:hover {
+  transform: translateY(-5px);
+}
+
+.event-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.event-details {
+  padding: 16px;
+}
+
+.event-name {
+  font-size: 1.25em;
+  margin: 0;
+}
+
+.event-description {
+  font-size: 1em;
+  margin: 8px 0;
+}
+
+.event-category,
+.event-rating {
+  font-size: 0.9em;
+  color: #666;
+}

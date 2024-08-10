@@ -1,0 +1,199 @@
+
+.home-container {
+  position: relative;
+  /* height: 280vh; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbdad6a3;
+}
+
+ .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  color: #6f4242;
+  padding: 70px;
+  z-index: 1;
+}
+
+.home-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #734444;
+}
+
+.home-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #312222;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  padding: 15px;
+  width: 80%;
+  max-width: 400px;
+  border: 3px solid #5c3c3c;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*.event-item {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}*/
+
+.event-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.event-item p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* .event-description {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+} */
+
+.event-description h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.event-description p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.category-item {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-item:hover,
+.category-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.category-item {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-item:hover,
+.category-item.active {
+  background-color: #007bff;
+  color: white;
+} 
+
+/* Horizontal event list container */
+.event-list-horizontal {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 10px 0;
+  white-space: nowrap; /* Prevent items from wrapping to the next line */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* Horizontal event items */
+.event-list-horizontal .event-item {
+  flex: 0 0 auto;
+  display: inline-block; /* Ensure events are displayed in a row */
+  width: 200px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for event items */
+.event-list-horizontal .event-item:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+/* Ensure smooth scrolling in all browsers */
+.event-list-horizontal::-webkit-scrollbar {
+  height: 8px; /* Adjust the height of the scrollbar */
+}
+
+.event-list-horizontal::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded edges for the thumb */
+}
+
+.event-list-horizontal::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+/* Optional: styling for popular, upcoming, and top-rated events */
+.popular-events, .upcoming-events, .top-rated-events {
+  margin: 30px 0;
+}
